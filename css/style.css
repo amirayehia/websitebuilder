@@ -1,3 +1,339 @@
 .homeContent h1{
 font-size: 96px;
 }
+
+
+
+
+
+
+
+
+.home{
+
+    background-image: url(img/img/slider/slider-01.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    
+
+
+}
+
+.home-nav{
+    width: 100%;
+    /* background-color: chartreuse; */
+     height: 50px;
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+}
+.home-nav a{
+    float: left;
+    color: #ff305b;
+    /* background-color: blueviolet; */
+     font-size: 24px;
+    font-weight:800;
+    text-decoration: none;
+    margin: 18px 0 18px 70px  ;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.home-nav ul {
+    float: right;
+    margin-right: 90px;
+}
+
+.home-nav ul li {
+ float: left;
+list-style: none;
+margin: 9px 4;
+padding: 10px; 
+/* background-color: blueviolet; */
+ color: white;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 300;
+font-size: 16px;
+}
+
+
+
+
+
+.home-content{
+
+
+    position:  relative;
+    top: 180px;
+
+    text-align: center;
+    color:white ;
+    
+
+
+}
+
+.home-content h3 {
+
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.home-content h1{
+
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.home-content h4{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+
+.clr{
+    clear: both;
+}  
+
+
+.about{
+
+    /* background-color: black; */
+}
+.about-container{
+display: flex;
+/* background-color: #30ff97; */
+width: 90%;
+margin: auto;
+padding-top: 100px;
+/* border: solid chartreuse 8px; */
+
+}
+
+
+.about .about-img {
+
+width: 50%;
+/* border: solid firebrick 5px; */
+/* background-color: blue; */
+/* float: left; */
+
+
+}
+.about .about-content{
+    width: 50%;
+/* border: solid firebrick 5px; */
+
+/* float: right; */
+}
+
+
+.about .img-border {
+
+width: 60%;
+border: solid #555555 7px;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about .about-border-img {
+    position: relative;
+    
+    transform: translate( 20px,20px);
+    overflow: hidden;
+}
+
+.about .img-layer{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: rgba(0, 0, 0, 0.57);
+border-radius: 5px;
+
+transition:all 1s ;
+
+
+}
+
+.about-border-img:hover .img-layer{
+
+top: 0;
+
+}
+
+
+
+
+.about .about-content{
+/* background-color: coral; */
+
+
+
+}
+
+
+.about .content-p{
+
+font-size: larger;
+
+}
+
+
+.about h2{
+    font-size: 34px;
+    padding-left: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.about p{
+    color: #555555;
+    border-bottom: dashed 1px  #999999;
+   margin-bottom: 25px;
+   padding-bottom: 25px;
+}
+
+
+.about .content-cv .list-1 ,.about .content-cv .list-2{
+
+
+float: left;
+margin-right: 100px;
+
+}
+
+
+ .about .content-cv .list li{
+
+    list-style: none;
+   font-size: larger;
+   margin-bottom: 25px;
+   
+}
+
+
+
+.about .download-cv{
+
+    padding-top: 15px;
+}
+
+
+.about .download-cv a{
+    background-color: #ff305b;
+    text-decoration: none;
+    color:white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+
+}
+
+
+
+
+
+
+.Services{
+
+    margin-top: 50px;
+    background-color: f1f1f1;
+    height: 100vh;
+
+}
+
+.Services-title {
+
+text-align: center;
+margin: 30px;
+}
+
+.Services-title h2{
+
+/* background-color: aqua; */
+font-size: 40px;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 800;
+
+}
+
+.Services .Services-title .line1 ,.Services .Services-title .line2{
+
+    background-color: #ff305b;
+    width: 60px;
+    margin: 5px auto ;
+    height: 1px;
+    
+    
+
+}
+
+.Services .Services-title .line2{
+    width: 160px;
+}
+
+
+.Services-content{
+
+/* background-color: brown; */
+width: 90%;
+
+margin: auto;
+}
+
+
+.Services  .Services-content-1{
+
+width: 25%;
+
+float:left; 
+
+}
+
+
+.Services .Services-content-inner{
+text-align: center;
+background-color: transparent;
+width: 100%;
+padding: 40px 15px;
+/* border: solid black 2px; */
+
+}
+.Services-content-1:hover .Services-content-inner {
+
+background-color:white ;
+box-shadow: 0 15px 20px #999999;
+
+}
+
+
+.Services .Services-content-inner h3{
+
+margin: 40px 0 30px ;
+font-size: 25px;
+font-weight: 300px;
+
+
+}
+
+.Services .Services-content-inner p{
+
+    font-size: 18px;
+
+}
